@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;}
+  body{margin:0;background:#fff;}
+  a{text-decoration:none;color:inherit;}
+  a.foot:hover{color:#e8f3ee;}
+  a.nav:hover{color:#0f5c3f;}
+</style>
+</helmet>
+
+<div style="font-family:'Public Sans',sans-serif;color:#12201a;">
+
+  <header style="position:sticky; top:0; z-index:30; background:rgba(255,255,255,.92); backdrop-filter:blur(10px); border-bottom:1px solid #e6ebe8;">
+    <div style="max-width:1240px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:16px 40px;">
+      <a href="index.html" style="display:flex; align-items:center; gap:10px;">
+        <span style="width:30px; height:30px; border-radius:8px; background:#0f5c3f; display:inline-block;"></span>
+        <span style="font-family:'Space Grotesk',sans-serif; font-size:22px; font-weight:700; letter-spacing:-.01em;">Domera</span>
+      </a>
+      <nav style="display:flex; gap:26px; font-size:14px; font-weight:500; color:#3a463f;">
+        <a class="nav" href="index.html">Home</a>
+        <a class="nav" href="Services.html" style="color:#0f5c3f; font-weight:600;">Services</a>
+        <a class="nav" href="About.html">About</a>
+        <a class="nav" href="ServiceAreas.html">Service Areas</a>
+        <a class="nav" href="Reviews.html">Reviews</a>
+        <a class="nav" href="Blog.html">Blog</a>
+        <a class="nav" href="Contact.html">Contact</a>
+      </nav>
+      <a href="tel:+12395550100" style="background:#0f5c3f; color:#fff; padding:11px 20px; border-radius:8px; font-weight:600; font-size:14px;">(239) 555-0100</a>
+    </div>
+  </header>
+
+  <!-- page hero -->
+  <section style="background:#f4f7f5; border-bottom:1px solid #e6ebe8;">
+    <div style="max-width:1240px; margin:0 auto; padding:70px 40px;">
+      <div style="font-family:'Space Grotesk',monospace; font-size:13px; letter-spacing:.18em; text-transform:uppercase; color:#0f5c3f; margin-bottom:18px;">Services</div>
+      <h1 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:52px; line-height:1.05; letter-spacing:-.02em; margin:0 0 18px; max-width:760px;">Complete care for your home — under one trusted team.</h1>
+      <p style="font-size:18px; line-height:1.6; color:#4a564f; margin:0; max-width:640px;">From spotless cleaning to full property oversight, every Domera service is delivered to hotel standards and documented with photos.</p>
+    </div>
+  </section>
+
+  <!-- service rows -->
+  <section>
+    <div style="max-width:1240px; margin:0 auto; padding:20px 40px 40px;">
+
+      <div style="display:grid; grid-template-columns:1fr 1.1fr; gap:48px; align-items:center; padding:56px 0; border-bottom:1px solid #e6ebe8;">
+        <div>
+          <div style="font-family:'Space Grotesk',monospace; font-size:14px; color:#0f5c3f; margin-bottom:14px;">01</div>
+          <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:34px; letter-spacing:-.02em; margin:0 0 14px;">Cleaning Services</h2>
+          <p style="font-size:16px; line-height:1.65; color:#4a564f; margin:0 0 22px;">Recurring, deep and vacation-turnover cleaning finished to hotel-housekeeping standards. Consistent crews, checklists, and a photo report after every clean.</p>
+          <a href="Cleaning.html" style="color:#0f5c3f; font-weight:600; font-size:15px;">Learn more →</a>
+        </div>
+        <div style="border-radius:14px; height:260px; background:#dfe6e2 url('https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1000&q=72') center/cover no-repeat; display:flex; align-items:flex-end; padding:18px;"></div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1.1fr 1fr; gap:48px; align-items:center; padding:56px 0; border-bottom:1px solid #e6ebe8;">
+        <div style="border-radius:14px; height:260px; background:#dfe6e2 url('https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1000&q=72') center/cover no-repeat; display:flex; align-items:flex-end; padding:18px;"></div>
+        <div>
+          <div style="font-family:'Space Grotesk',monospace; font-size:14px; color:#0f5c3f; margin-bottom:14px;">02</div>
+          <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:34px; letter-spacing:-.02em; margin:0 0 14px;">Home Watch</h2>
+          <p style="font-size:16px; line-height:1.65; color:#4a564f; margin:0 0 22px;">Scheduled inspections while you're away — checking for leaks, storm damage, pests and more. You get a documented, photo-backed report after every visit.</p>
+          <a href="HomeWatch.html" style="color:#0f5c3f; font-weight:600; font-size:15px;">Learn more →</a>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1.1fr; gap:48px; align-items:center; padding:56px 0; border-bottom:1px solid #e6ebe8;">
+        <div>
+          <div style="font-family:'Space Grotesk',monospace; font-size:14px; color:#0f5c3f; margin-bottom:14px;">03</div>
+          <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:34px; letter-spacing:-.02em; margin:0 0 14px;">Property Concierge</h2>
+          <p style="font-size:16px; line-height:1.65; color:#4a564f; margin:0 0 22px;">Arrival preparation, grocery stocking, vendor coordination and personal errands — so your home is ready and waiting whenever you or your guests arrive.</p>
+          <a href="Concierge.html" style="color:#0f5c3f; font-weight:600; font-size:15px;">Learn more →</a>
+        </div>
+        <div style="border-radius:14px; height:260px; background:#dfe6e2 url('https://images.unsplash.com/photo-1521783988139-89397d761dce?auto=format&fit=crop&w=1000&q=72') center/cover no-repeat; display:flex; align-items:flex-end; padding:18px;"></div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1.1fr 1fr; gap:48px; align-items:center; padding:56px 0;">
+        <div style="border-radius:14px; height:260px; background:#dfe6e2 url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1000&q=72') center/cover no-repeat; display:flex; align-items:flex-end; padding:18px;"></div>
+        <div>
+          <div style="font-family:'Space Grotesk',monospace; font-size:14px; color:#0f5c3f; margin-bottom:14px;">04</div>
+          <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:34px; letter-spacing:-.02em; margin:0 0 14px;">Property Maintenance</h2>
+          <p style="font-size:16px; line-height:1.65; color:#4a564f; margin:0 0 22px;">Repairs, seasonal upkeep and vendor management handled end-to-end through vetted local pros — coordinated by us so you have a single point of contact.</p>
+          <a href="Maintenance.html" style="color:#0f5c3f; font-weight:600; font-size:15px;">Learn more →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- how it works -->
+  <section style="background:#0f5c3f; color:#e8f3ee;">
+    <div style="max-width:1240px; margin:0 auto; padding:76px 40px;">
+      <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:36px; letter-spacing:-.02em; margin:0 0 40px;">How it works</h2>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:28px;">
+        <div style="border-top:2px solid #4f9a7c; padding-top:20px;"><div style="font-family:'Space Grotesk',sans-serif; font-size:28px; font-weight:700; margin-bottom:8px;">1</div><strong style="font-size:17px;">Call us</strong><p style="margin:8px 0 0; font-size:15px; line-height:1.6; color:#b6d4c8;">Tell us about your home and what you need. We'll recommend the right plan.</p></div>
+        <div style="border-top:2px solid #4f9a7c; padding-top:20px;"><div style="font-family:'Space Grotesk',sans-serif; font-size:28px; font-weight:700; margin-bottom:8px;">2</div><strong style="font-size:17px;">We set a schedule</strong><p style="margin:8px 0 0; font-size:15px; line-height:1.6; color:#b6d4c8;">Recurring or one-time — with a consistent, bilingual crew you'll come to know.</p></div>
+        <div style="border-top:2px solid #4f9a7c; padding-top:20px;"><div style="font-family:'Space Grotesk',sans-serif; font-size:28px; font-weight:700; margin-bottom:8px;">3</div><strong style="font-size:17px;">You get photo reports</strong><p style="margin:8px 0 0; font-size:15px; line-height:1.6; color:#b6d4c8;">After every visit, see exactly what was done — from wherever you are.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div style="max-width:1240px; margin:0 auto; padding:56px 40px 80px;">
+      <div style="background:#f4f7f5; border-radius:18px; padding:56px; display:flex; align-items:center; justify-content:space-between; gap:30px; flex-wrap:wrap;">
+        <div>
+          <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:34px; letter-spacing:-.02em; margin:0 0 8px;">Not sure which service you need?</h2>
+          <p style="font-size:16px; color:#4a564f; margin:0;">Give us a call — we'll help you figure it out.</p>
+        </div>
+        <a href="tel:+12395550100" style="background:#0f5c3f; color:#fff; padding:19px 34px; border-radius:10px; font-weight:600; font-size:18px; white-space:nowrap;">Call (239) 555-0100</a>
+      </div>
+    </div>
+  </section>
+
+  <footer style="background:#12201a; color:#9fb0a7;">
+    <div style="max-width:1240px; margin:0 auto; padding:56px 40px; display:grid; grid-template-columns:2fr 1fr 1fr 1.2fr; gap:40px;">
+      <div>
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:16px;">
+          <span style="width:26px; height:26px; border-radius:7px; background:#0f5c3f; display:inline-block;"></span>
+          <span style="font-family:'Space Grotesk',sans-serif; font-size:19px; font-weight:700; color:#fff;">Domera</span>
+        </div>
+        <p style="font-size:14px; line-height:1.6; margin:0 0 12px; max-width:280px;">Professional home &amp; property services, held to hotel standards. Bilingual, reliable, documented.</p>
+        <a href="tel:+12395550100" style="font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:600; color:#fff;">(239) 555-0100</a>
+      </div>
+      <div>
+        <div style="font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:#5f7169; margin-bottom:14px;">Services</div>
+        <div style="display:flex; flex-direction:column; gap:10px; font-size:14px;">
+          <a class="foot" href="Cleaning.html">Cleaning Services</a>
+          <a class="foot" href="HomeWatch.html">Home Watch</a>
+          <a class="foot" href="Concierge.html">Property Concierge</a>
+          <a class="foot" href="Maintenance.html">Property Maintenance</a>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:#5f7169; margin-bottom:14px;">Company</div>
+        <div style="display:flex; flex-direction:column; gap:10px; font-size:14px;">
+          <a class="foot" href="About.html">About</a>
+          <a class="foot" href="ServiceAreas.html">Service Areas</a>
+          <a class="foot" href="Reviews.html">Reviews</a>
+          <a class="foot" href="Blog.html">Blog</a>
+          <a class="foot" href="Contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:#5f7169; margin-bottom:14px;">Service areas</div>
+        <div style="font-size:14px; line-height:1.9;">Naples<br>Fort Myers<br>Bonita Springs</div>
+      </div>
+    </div>
+    <div style="border-top:1px solid #22332b;">
+      <div style="max-width:1240px; margin:0 auto; padding:20px 40px; display:flex; justify-content:space-between; font-size:13px; color:#6b7d74; flex-wrap:wrap; gap:8px;">
+        <span>© 2026 Domera Home Services. All rights reserved.</span>
+        <span>Licensed &amp; insured · EN / ES</span>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+</body>
+</html>
